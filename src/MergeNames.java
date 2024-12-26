@@ -1,6 +1,9 @@
 import java.util.HashSet;
 import java.util.Set;
 
+// 实现uniqueNames 方法。当传递两个名称数组时，它将返回一个数组，其中包含出现在其中一个或两个数组中的名称。返回的数组应该没有重复项。
+// 例如，调用MergeNames.unigueNames(new string[lf'Ava, "Emma, 'olivia'j, new string[/{olivia'Sophia;Emma})应该返回一个 包含 Ava、Emma、Olivia 和 Sophia 的数组，顺序任意。
+
 public class MergeNames
 {
     
@@ -24,10 +27,6 @@ public class MergeNames
 
         // Create a result array with the exact size
         String[] result = new String[index];
-
-        System.out.println(String.join(", ",temp));
-        System.out.println(String.join(", ",result));
-
         System.arraycopy(temp, 0, result, 0, index);
 
         return result;

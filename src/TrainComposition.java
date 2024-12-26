@@ -1,3 +1,7 @@
+// TrainComposition是通过从左侧和右侧连接和拆卸车厢来构建的， 并且可以 节省时间。例如，如果我们先从左侧连接车厢 7，然后再从左侧连接车厢13，
+//那么我们就会得到两辆车厢的组合(从左到右依次为 13 和 7)。现在，第一个可以从右侧拆卸的车厢是 7，第一个可以从左侧拆卸的车厢是 13。
+
+
 public class TrainComposition {
     private Node leftMost;
     private Node rightMost;

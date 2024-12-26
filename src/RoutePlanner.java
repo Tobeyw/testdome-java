@@ -58,7 +58,7 @@ public class RoutePlanner {
     private static boolean isValid(int row, int col, boolean[][] mapMatrix, boolean[][] visited) {
         return row >= 0 && row < mapMatrix.length &&
                col >= 0 && col < mapMatrix[0].length &&
-               mapMatrix[row][col] && !visited[row][col];
+               mapMatrix[row][col] && !visited[row][col];    //在地图内并且没被走过
     }
 
         

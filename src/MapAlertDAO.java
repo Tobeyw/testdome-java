@@ -4,11 +4,9 @@ import java.util.Map;
 import java.util.UUID;
 
 class AlertService {
-   // private final MapAlertDAO storage = new MapAlertDAO();
+   // private final AlertDAO storage = new MapAlertDAO();
 		
     private final AlertDAO storage;
-
-
     public AlertService(AlertDAO alertDAO) {
         this.storage = alertDAO;
     }

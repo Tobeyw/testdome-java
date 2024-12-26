@@ -17,7 +17,7 @@ public class InspectBits {
         int number1 = 13; // 二进制表示为1101
         int number2 = 8;  // 二进制表示为1000
         int number3 = 7;  // 二进制表示为0111
-        int number4 = 6;  // 二进制表示为0100
+        int number4 = 6;  // 二进制表示为0110
 
         System.out.println("Inspect 13: " + inspectBits(number1)); // 输出1
         System.out.println("Inspect 8: " + inspectBits(number2));  // 输出0
