@@ -1,3 +1,4 @@
+/* 连续三个大于0数的最小平均数*/
 
 public class MinAveage {
 

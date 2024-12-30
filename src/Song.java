@@ -9,7 +9,7 @@ public class Song {
     public void setNextSong(Song nextSong) {
         this.nextSong = nextSong;
     }
-
+    //快慢指针
     public boolean isInRepeatingPlaylist() {
         Song slowPointer = this;
         Song fastPointer = this;

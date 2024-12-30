@@ -1,3 +1,4 @@
+/**背包问题 */
 
 public class Package {
     public static boolean canPartition(int[] nums) {
@@ -35,29 +36,7 @@ public class Package {
         return dp[n - 1][target];
     }
 
-    public static boolean canPartition2(int[] nums) {
-        int total = sum(nums);
-        System.out.println(total);
-        if (total%2 != 0){
-            return false;
-        }
 
-        int sum = total /2;
-        bubbleSort(nums,nums.length);  
-        System.out.print(sum);
-       for (int i = 0; i < nums.length; i++) {
-        System.out.print(nums[i]);
-       }
-      
-        for (int i =nums.length-1; i > 0; i--) {
-            sum -= nums[i];
-            if(sum==0){
-            return true;
-            }
-
-        }
-            return false;
-    }
 
     public static int sum(int[] nums){
         int total =0;
